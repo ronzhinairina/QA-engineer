@@ -1,0 +1,19 @@
+.prospects {
+    background: url('/Image/image3.png') no-repeat;;
+    background-size: cover;
+    padding-bottom: 730px;
+    border-bottom: 4px solid #9300F1;
+
+    &__title {
+        color: #FFFFFF;
+        text-align: center;
+        padding: 50px 0 30px;
+    }
+
+    &__text {
+        color: #FFFFFF;
+        width: 737px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

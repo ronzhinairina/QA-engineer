@@ -1,0 +1,19 @@
+header {
+    a {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: white;
+    }
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-top: 40px;
+    margin-right: 80px;
+    position: absolute;
+    right: 0;
+}

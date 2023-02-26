@@ -1,0 +1,39 @@
+#about {
+    background-color: #0A0A0A;
+    padding: 100px 0 137px 0;
+}
+
+.about {
+    &__title {
+        color: white;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        color: white;
+    }
+
+    &__container {
+        .container {
+            &__container {
+               display: flex;
+               gap: 25px;
+               align-items: center;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+        }
+        display: flex;
+        margin-top: 40px;
+    }
+
+    max-width: 922px;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 897px;
+    margin: 0 auto;
+}

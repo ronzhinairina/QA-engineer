@@ -1,0 +1,53 @@
+@import "_header";
+@import "_lead";
+@import "_about";
+@import "_plus-minus";
+@import "_skills";
+@import "_education";
+@import "_prospects";
+@import "_footer";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    // max-width: 922px;
+    // margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 150%;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

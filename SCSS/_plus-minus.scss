@@ -1,0 +1,44 @@
+#plus-minus {
+    background: linear-gradient(135deg,  rgba(10,10,10,1) 49%,rgba(10,10,10,1) 49%,rgba(10,10,10,1) 49%,rgba(10,10,10,1) 50%,rgba(10,10,10,1) 50%,rgba(246,246,246,1) 50%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 50%,rgba(255,255,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.plus-minus {
+    &__title-left {
+        color: white;
+    }
+
+    &__container-left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__container-right {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 141px;
+        justify-content: center;
+        height: 649px;
+    }
+
+    &__list-right {
+        display: flex;
+        gap: 45px;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    
+    &__list-left {
+        display: flex;
+        gap: 45px;
+        flex-direction: column;
+        color: #FFFFFF;
+    }
+}
